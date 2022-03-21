@@ -5,9 +5,9 @@
     "passes": 1,
     "pending": 0,
     "failures": 0,
-    "start": "2022-03-21T22:21:15.145Z",
-    "end": "2022-03-21T22:21:35.778Z",
-    "duration": 20633,
+    "start": "2022-03-21T23:53:12.686Z",
+    "end": "2022-03-21T23:53:35.263Z",
+    "duration": 22577,
     "testsRegistered": 1,
     "passPercent": 100,
     "pendingPercent": 0,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "91364a18-a97e-4823-bb82-20344dc000c8",
+      "uuid": "78264040-4cb8-47cb-97aa-e24b7d3238c5",
       "title": "",
       "fullFile": "cypress/integration/cadastro.spec.js",
       "file": "cypress/integration/cadastro.spec.js",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "36c21267-4ab1-4ebf-a28e-7e90f3c1cac6",
+          "uuid": "d5a7ae2e-db55-4b65-b382-6fa25cc2c857",
           "title": "Cadastro",
           "fullFile": "",
           "file": "",
@@ -38,7 +38,7 @@
               "title": "Quando teste",
               "fullTitle": "Cadastro Quando teste",
               "timedOut": null,
-              "duration": 16979,
+              "duration": 19087,
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -47,20 +47,20 @@
               "context": null,
               "code": "cy.visit('http://automationpractice.com');\ncy.get('.login').click();\ncy.get('title').should('have.text', 'Login - My Store');\ncy.get('input#email_create').type(chance.email());\ncy.get('#SubmitCreate').click();\ncy.get('.page-heading').should('have.text', 'Create an account');\ncy.get('#id_gender1').check();\ncy.get('input#customer_firstname').type(firstname);\ncy.get('input#customer_lastname').type(lastname);\ncy.get('input#passwd').type('Agilizei@123');\ncy.get('#days').select('30');\ncy.get('#months').select('July');\ncy.get('#years').select('1988');\ncy.get('#optin').check();\ncy.get('input#address1').type(chance.address());\ncy.get('input#city').type(chance.city());\ncy.get('#id_state').select('Florida');\ncy.get('input#postcode').type(chance.zip());\ncy.get('input#phone_mobile').type(chance.phone());\ncy.get('#submitAccount > span').click();\ncy.get('.account >').should('have.text', `${firstname} ${lastname}`);",
               "err": {},
-              "uuid": "865af5f0-7295-4955-8bc8-e969a07a0085",
-              "parentUUID": "36c21267-4ab1-4ebf-a28e-7e90f3c1cac6",
+              "uuid": "52635997-676b-4895-9520-0ec7ada1b3ba",
+              "parentUUID": "d5a7ae2e-db55-4b65-b382-6fa25cc2c857",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "865af5f0-7295-4955-8bc8-e969a07a0085"
+            "52635997-676b-4895-9520-0ec7ada1b3ba"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 16979,
+          "duration": 19087,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
